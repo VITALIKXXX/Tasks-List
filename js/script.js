@@ -20,6 +20,7 @@
 
     const bindRemoveEvents = () => {
         const removeButtons = document.querySelectorAll(".js-remove");
+
         removeButtons.forEach((removeButton, taskIndex) => {
             removeButton.addEventListener("click", () => {
                 removeTask(taskIndex);
@@ -29,6 +30,7 @@
 
     const bindToggleDoneEvents = () => {
         const toggleDoneButtons = document.querySelectorAll(".js-toggleDone");
+
         toggleDoneButtons.forEach((toggleDoneButton, taskIndex) => {
             toggleDoneButton.addEventListener("click", () => {
                 toggleTaskDone(taskIndex);
@@ -61,7 +63,6 @@
 
         bindRemoveEvents();
         bindToggleDoneEvents();
-
     };
 
     const onFormSubmit = (event) => {
