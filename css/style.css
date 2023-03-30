@@ -10,5 +10,10 @@ html {
 
 .body {
     background: #eee;
+    transition: background 1s;
     font-family: 'Montserrat', sans-serif;
+}
+
+.body:hover {
+    background: hsl(0, 0%, 99%);
 }
