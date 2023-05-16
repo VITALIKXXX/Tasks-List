@@ -20,9 +20,9 @@
     }
 }
 
-.section_title {
+.section__title {
     font-size: 20px;
-    margin: o;
+    margin: 0;
 }
 
 .section__body {
