@@ -4,21 +4,22 @@
 
     const removeTask = (taskIndex) => {
         tasks = [
-            ...tasks.splice(0, taskIndex),
-            ...tasks.splice(taskIndex + 1),
+            ...tasks.slice(0, taskIndex),
+            ...tasks.slice(taskIndex + 1),
         ];
         render();
     };
 
     const toggleTaskDone = (taskIndex) => {
         tasks = [
-            ...tasks.splice(0, taskIndex),
+            ...tasks.slice(0, taskIndex),
             {
                 ...tasks[taskIndex],
                 done: !tasks[taskIndex].done,
             },
-            ...tasks.splice(taskIndex + 1),
+            ...tasks.slice(taskIndex + 1),
         ];
+
         render();
     };
 
