@@ -1,6 +1,6 @@
 # Tasks-List
 
-![Animation](https://raw.githubusercontent.com/VITALIKXXX/Tasks-List/e27ee94c56e31b55909698a92176ef551970d8ad/Animation%20Homepage.gif)
+![Animation](https://github.com/VITALIKXXX/Tasks-List/blob/main/images/Animation%20Homepage%201.gif)
 
 ## DEMO
 https://vitalikxxx.github.io/Tasks-List/
